@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
-
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.bundle.js'
+import { Route, Routes } from "react-router-dom";
+import Contact from "./pages/Contact";
+import ItemData from "./components/Home/ItemData"
+// import Navbar from "./components/Navbar"
+// import Logo from "./assets/Medical Rep Logo.png"
+import OrderNow from "./pages/OrderNow";
+import Categories from './pages/Categories';
+import Productinfo from './pages/Productinfo'
+import About from './pages/About';
+import PageNav from "./components/PageNav";
+import Footer from "./components/Footer";
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return(
+    <div>
+      <PageNav/>
+      
+      <Routes>
+        <Route path='/Order/:id' element={<OrderNow/>}></Route>
+        <Route path="Categories/drug/:id" element={<Productinfo/>}></Route>
+        <Route path="/" element={<ItemData/>}></Route>
+        <Route path="/Categories" element={<Categories/>}></Route>
+        <Route path="/About" element={<About/>}></Route>
+        <Route path='/Contact' element={<Contact/>}></Route>
+      </Routes>
+      <Footer/>
+    </div>);
 }
 
 export default App;
