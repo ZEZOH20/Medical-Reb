@@ -70,8 +70,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 ## Screens
-![Alt text](https://github.com/ZEZOH20/Medical-Reb.git/screens/home.png)
-![Alt text](https://github.com/ZEZOH20/Medical-Reb.git/screens/categories.png)
-![Alt text](https://github.com/ZEZOH20/Medical-Reb.git/screens/product.png)
-![Alt text](https://github.com/ZEZOH20/Medical-Reb.git/screens/about.png)
-![Alt text](https://github.com/ZEZOH20/Medical-Reb.git/screens/contact.png)
+![Alt text](https://github.com/ZEZOH20/Medical-Reb/screens/home.png)
+![Alt text](https://github.com/ZEZOH20/Medical-Reb/screens/categories.png)
+![Alt text](https://github.com/ZEZOH20/Medical-Reb/screens/product.png)
+![Alt text](https://github.com/ZEZOH20/Medical-Reb/screens/about.png)
+![Alt text](https://github.com/ZEZOH20/Medical-Reb/screens/contact.png)
